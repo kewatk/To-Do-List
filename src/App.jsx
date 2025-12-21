@@ -1,13 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import Header from "./components/Header";
+import ToDoList from "./components/ToDoList";
+import "./index.css";
 
 function App() {
-
   return (
-    <>
-      <h1>Here start my projcet</h1>
-    </>
-  )
+    <div className="app">
+      <Header />
+      {/* Input section */}
+      <div className="input-section">
+        <input/>
+        <button>Add</button>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
