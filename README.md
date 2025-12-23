@@ -1,16 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**HOW TO RUN PROJECT**
+**STEP 1 :** Download this project.
+**STEP 2 :** Open downloaded file in VS Code (NOTE : if downloaded file in zipe file extrect this file then follow next step)
+**STEP 3 :** After open file Go in Command Prompt Terminal
+**STEP 4 :** Check which file in you present (NOTE : if you present in other file then go in TODOLIST file otherwish it not work)
+**STEP 5 :** Run this command "npm install" (NOTE : First check in your system node.js install or not if not install first install then run this command")
+**STEP 6 :** After that Write this command "npm run dev"
+**STEP 7 :** Click on give linl Locla : "http://localhost:5173/"
+**STEP 8 :** Go Chrome and see this.
