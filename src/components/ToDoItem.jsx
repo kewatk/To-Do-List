@@ -11,8 +11,7 @@ function ToDoItem({ todo, onDelete, onToggle, onEdit }) {
   const saveEdit = () => {
     onEdit(todo.id, editText); // Update parent state
     setIsEditing(false);       // Exit edit mode
-  };
-
+  }
   return (
     <li className={todo.completed ? "completed" : ""}>
       {isEditing ? (
